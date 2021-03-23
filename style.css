@@ -1,0 +1,459 @@
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+ }
+
+body {
+  font-size: 20px;
+  overflow-x: hidden;
+  
+}
+.navbar-toggler-icon {
+  background-color: #00bfff!important;
+  position: absolute!important;
+}
+
+.row {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+/****TOP Header Style Sheet Starts Here****/
+
+
+
+.contactInfo {
+  color: black;
+}
+
+.fa {
+  padding: 3px;
+  font-size: 0.9rem;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  display: inherit!important;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-home {
+  background: #3B5998;
+  color: white;
+}
+/****TOP Header Style Sheet Ends Here****/
+
+
+/*****NAVBAR Starts Here****/
+
+.Logoimage {
+  height: 20px;
+  margin-top: -102px;
+}
+
+.TopHeader {
+
+background : #DCDCDC;
+width: 119%;
+}
+
+.navbar {
+  content: "";
+   position: absolute;
+   margin-top: 24px;
+   z-index: -3;
+   background : #fff;
+   width : 100%;
+   padding : -50px;
+   
+}
+
+.nav-item a{
+  color: black!important;
+ 
+}
+/*****NAVBAR Ends Here****/
+
+/**** Main Div Style Starts Here****/
+
+.main-div {
+  background-image:url('../images/image_5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; 
+}
+
+.main-content-header{
+  width: 1180px;
+  top: 55%;
+  left: 50%;
+  margin-top: 24%;
+}
+
+
+.h1text
+{
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: #3B5998;
+	width: 100%;
+}
+
+
+.btnExploreNow  {
+display: inline-block;
+border: 1px solid transparent;
+border-radius: 100px;
+margin: 0 5px;
+padding: 12px 35px;
+outline: none;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.4;
+text-align: center;
+background-color: #3B5998;
+}
+
+.btn-more {
+  color: #fff!important;
+}
+/**** Main Div Style Ends Here*****/
+
+/***** About Us Starts Here****/
+
+.AboutUs {
+  width: 1180px;
+  top: 55%;
+  left: 50%;
+  margin-top: 24%;
+}
+
+.h1textAboutUs{
+  color:#00bfff;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+}
+.USText {
+  color:#00008b;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.btnExploreNowAboutUs {
+display: inline-block;
+border: 1px solid transparent;
+border-radius: 100px;
+margin: 0 5px;
+/*padding: 12px 35px;*/
+outline: none;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.4;
+text-align: center;
+background-color: #3B5998;
+}
+
+.AboutUsimage {
+width: 100%;
+margin-top: 71px;
+
+}
+
+.AboutUsImage1{
+border-radius: 20px;
+}
+
+/*********** Our Verticle Starts Here ************/
+.OurVerticleMain {
+  margin-top: 51px;
+}
+
+
+.OurVerticlehead{
+  color:#00bfff;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+}
+.OurVerticleText1{
+  color:#00008b;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.OurVerticleimg1 {
+border-radius: 20px;
+}
+
+.h1textOurVerticleimg1{
+  color:#00008b;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.h1textOurVerticleimg2 {
+  
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.h1textOurVerticleimgDiv {
+background-color: #4169e1;
+color:#fff;
+}
+
+.btnExploreOurVerticle2 {
+  background-color:#fff;
+  color:  #4169e1;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  margin: 0px 230px 0px auto;
+}
+
+
+.btnExploreOurVerticle1{
+border: 1px solid transparent;
+border-radius: 100px;
+margin: 0px 230px 0px auto;
+outline: none;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.4;
+text-align: center;
+background-color: #3B5998;
+}
+/*********** Our Verticle Ends Here ************/
+
+/******** Business Section Starts Here****/
+.BusinessSectionDiv{
+  background-image:url('../images/BusinessDiv.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 72px;
+  height: 448px;
+}
+
+.BusinessSectionImg {
+  margin-top: 15%;
+  border: 10px solid white;
+  border-radius: 50px;
+}
+
+.BusinessSectionh1 {
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 1.7rem;
+}
+
+.BusinessSectionh1 p{
+  color: #fff!important;
+}
+
+.BusinessSectionBtn {
+  background-color: #fff;
+  color: #4169e1;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  margin: 0px 425px 0px auto; 
+}
+
+
+/******** Business Section Ends Here****/
+
+
+/******** Service Section Starts Here****/
+.ServicesDiv {
+  margin-top: 84px;
+  margin-left: 15%;
+}
+.serviceh1 {
+ 
+  color:#00bfff;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 2rem;
+}
+.box {
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+
+}
+
+.ServicesContact {
+  color:#00008b;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.ServicesContactbtn{
+border-radius: 100px;
+background-color: #3B5998;
+max-width: max-content;
+
+}
+
+.box .ServiceFa{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.fa-check-circle-o {
+  background: #3B5998;
+  color: white;
+  margin-left: -71px;
+  padding: 24px;
+}
+.fa-bank {
+  background:#3B5998;
+  color: white;
+  margin-left: -71px;
+  padding: 24px;
+}
+.fa-users {
+  background: #3B5998;
+  color: white;
+  margin-left: -71px;
+  padding: 24px;
+}
+
+.fa-object-group {
+  background: #3B5998;
+  color: white;
+  margin-left: -71px;
+  padding: 24px;
+}
+
+
+.fa-search-plus{
+  background: #3B5998;
+  color: white;
+  margin-left: -71px;
+  padding: 24px;
+  
+}
+
+.bankingdiv {
+  text-align: center;
+  border: 1px solid transparent;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  background: #4169e1;
+  color: white;
+}
+
+.ServicesContactbtnbank {
+border-radius: 100px;
+background-color: #fff;
+max-width: max-content;
+}
+
+/******** Service Section Ends Here****/
+
+
+/******** Our Clients Starts Here****/
+.ourClientSection {
+  background-color: #E8E8E8;
+  margin-top: 84px;
+}
+.image_slider {
+  
+  margin-left: -318px;
+}
+.carousel img{
+border-radius: 20px;
+
+}
+
+/******** Our Clients End Here****/
+
+
+/******** Footer Starts Here****/
+
+.footersection {
+  width: 100%;
+  height: auto;
+  padding: 70px 0 20px 0;
+  background: black;
+  position: relative;
+}
+
+.footersection p{
+  color: #fff;
+}
+
+.footersection li a{
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.footersection h3{
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 1.2rem!important;
+  font-weight: 600;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4)
+}
+
+.footerText h1{
+  color: white!important;
+  font-weight: lighter!important;
+  font-size: 1rem!important;
+  border-bottom: 1px solid white;
+}
+
+.footerpart2 h1{
+  color: white!important;
+  font-weight: lighter!important;
+  font-size: 1rem!important;
+}
+
+.footerFa .fa-home{
+  background: #3B5998!important;
+  color: white!important;
+}
+.maprouter2 {
+  border-radius: 20px!important;
+}
+
+
+/******** Footer Ends Here****/
